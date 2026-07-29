@@ -1,0 +1,28 @@
+camera:
+  index: 0
+  width: 960
+  height: 540
+  detection_scale_factor: 1.12
+  detection_min_neighbors: 5
+  minimum_face_size_px: 80
+
+audio:
+  device: null
+  sample_rate: 16000
+  block_size: 800
+  calibration_seconds: 2.0
+  threshold_margin_db: 9.0
+  hangover_ms: 350
+  segment_pre_roll_ms: 250
+  segment_min_seconds: 0.6
+  segment_max_seconds: 15.0
+
+fusion:
+  speech_threshold: 0.55
+  mouth_motion_threshold: 0.10
+
+asr:
+  model: openai/whisper-small
+  language: zh
+  device: auto
+  max_new_tokens: 128

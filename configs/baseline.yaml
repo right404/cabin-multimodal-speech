@@ -1,0 +1,31 @@
+seed: 42
+
+geometry:
+  speed_of_sound_m_s: 343.0
+  microphone_spacing_m: 0.05
+  microphone_count: 4
+  seat_angles_deg: [-55.0, -20.0, 20.0, 55.0]
+  seat_names: [driver, front_passenger, rear_left, rear_right]
+
+data:
+  train_samples: 12000
+  validation_samples: 2400
+  test_samples: 2400
+  no_speech_probability: 0.12
+  audio_missing_probability: 0.10
+  visual_occlusion_probability: 0.18
+  distractor_lip_probability: 0.15
+  doa_noise_std_deg: 9.0
+
+model:
+  hidden_dims: [96, 48]
+  dropout: 0.15
+
+training:
+  epochs: 25
+  batch_size: 256
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 0
+  device: auto
+

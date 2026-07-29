@@ -1,0 +1,48 @@
+meeting_id: ES2002a
+
+# Paths are relative to the repository root. Raw corpus files and model
+# weights are intentionally excluded from version control.
+paths:
+  ami_root: data/raw/ami
+  annotation_root: data/raw/ami/annotations/manual_1.6.2
+  light_asd_root: data/raw/third_party/Light-ASD
+  yunet_model: data/raw/models/face_detection_yunet_2023mar.onnx
+  active_speaker_output: artifacts/ami/active_speaker_results.json
+  interference_output: artifacts/ami/interference_results.json
+
+array:
+  name: Array1
+  microphone_count: 8
+  radius_m: 0.10
+
+active_speaker:
+  weights: pretrain_AVA_CVPR.model
+  visibility_threshold: 0.50
+  min_segment_seconds: 2.0
+  max_segment_seconds: 8.0
+  seed: 0
+
+# ES2002a-specific identity-to-azimuth calibration. These are empirical
+# representative SRP-PHAT directions from isolated annotated speech, not a
+# learned face-pixel-to-angle model and not transferable to another meeting.
+speaker_angles_deg:
+  A: -134.0
+  B: 14.0
+  C: -87.0
+  D: -172.0
+
+interference_experiment:
+  target:
+    speaker_id: B
+    start_seconds: 465.488
+  interferer:
+    speaker_id: D
+    start_seconds: 499.136
+  duration_seconds: 5.0
+  interference_db: 6.0
+  # Preserves the published pilot setting. The target identity comes from
+  # Light-ASD; this confidence is controlled rather than calibrated from its
+  # raw probability and must not be presented as an end-to-end confidence.
+  beamforming_confidence: 0.90
+  sbl_max_iterations: 80
+  frequency_stride: 2

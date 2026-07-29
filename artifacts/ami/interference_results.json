@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "meeting": "ES2002a",
+  "inputs": {
+    "config": "configs\\ami_es2002a.yaml",
+    "active_speaker_results": "artifacts\\ami\\active_speaker_results.json",
+    "array_channels": 8,
+    "reference_headset_channel": 1
+  },
+  "construction": {
+    "target": "speaker B, 465.488-470.488 s",
+    "interferer": "speaker D, 499.136-504.136 s",
+    "interference_db_relative_to_target": 6.0,
+    "mixture_type": "controlled sum of two real multichannel room recordings"
+  },
+  "visual_prior": {
+    "source": "persisted Light-ASD active-speaker result",
+    "segment_start_seconds": 465.488,
+    "ground_truth_speaker": "B",
+    "predicted_speaker": "B",
+    "target_visible": true,
+    "predicted_probability": 0.3219511806964874,
+    "beamforming_confidence": 0.9,
+    "confidence_note": "controlled pilot setting; not calibrated from the Light-ASD probability",
+    "identity_to_angle_mapping": "ES2002a-specific empirical calibration"
+  },
+  "directions_deg": {
+    "visual_target": 14.0,
+    "interferer": -172.0,
+    "acoustic_estimate": -172.0,
+    "acoustic_confidence": 0.2198618637594272,
+    "sbl_target_median": 16.0
+  },
+  "aligned_si_sdr_db": {
+    "single_channel": -12.371709052852243,
+    "audio_doa_delay_sum": -12.313785326428718,
+    "visual_delay_sum": -10.114874343211941,
+    "visual_sbl_incm_mvdr": -10.165635467089295
+  },
+  "delta_vs_audio_doa_db": {
+    "single_channel": -0.05792372642352461,
+    "audio_doa_delay_sum": 0.0,
+    "visual_delay_sum": 2.198910983216777,
+    "visual_sbl_incm_mvdr": 2.148149859339423
+  },
+  "sbl": {
+    "max_iterations": 80,
+    "frequency_stride": 2,
+    "mean_iterations": 80.0,
+    "converged_fraction": 0.0,
+    "processed_bin_fraction": 0.20233463035019456,
+    "protected_sector_half_width_deg": 5.1,
+    "unprocessed_bin_fallback": "visual delay-and-sum"
+  }
+}

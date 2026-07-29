@@ -1,0 +1,33 @@
+sample_rate: 16000
+
+geometry:
+  speed_of_sound_m_s: 343.0
+  microphone_spacing_m: 0.05
+  microphone_count: 4
+
+# Paper defaults. Use max_iterations=50 for quick development and 200 for
+# paper-aligned reproducibility runs.
+sbl:
+  init_noise_ratio: 0.1
+  gamma_floor: 1.0e-12
+  noise_floor: 1.0e-12
+  tolerance: 1.0e-4
+  max_iterations: 200
+
+incm:
+  threshold_alpha: 10.0
+  coverage_ratio: 0.9
+  diagonal_loading_beta: 1.0e-3
+
+wideband:
+  n_fft: 512
+  hop_length: 128
+  min_frequency_hz: 200.0
+  max_frequency_hz: 6000.0
+  frequency_stride: 1
+  angle_min_deg: -90.0
+  angle_max_deg: 90.0
+  angle_step_deg: 3.0
+  default_sector_half_width_deg: 5.0
+  min_sector_half_width_deg: 3.0
+  max_sector_half_width_deg: 15.0

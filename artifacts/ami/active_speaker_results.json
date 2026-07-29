@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "meeting": "ES2002a",
+  "weights": "pretrain_AVA_CVPR.model",
+  "device": "cuda",
+  "seed": 0,
+  "selection": "isolated lexical segments, 2-8 seconds",
+  "visibility_threshold": 0.5,
+  "inputs": {
+    "config": "configs\\ami_es2002a.yaml",
+    "array_audio": "data\\raw\\ami\\ES2002a\\audio\\ES2002a.Array1-01.wav",
+    "annotation_root": "data\\raw\\ami\\annotations\\manual_1.6.2",
+    "yunet_model": "data\\raw\\models\\face_detection_yunet_2023mar.onnx",
+    "light_asd_weights": "data\\raw\\third_party\\Light-ASD\\weight\\pretrain_AVA_CVPR.model"
+  },
+  "summary": {
+    "all_segments": {
+      "correct": 9,
+      "total": 16,
+      "accuracy": 0.5625
+    },
+    "visible_segments": {
+      "correct": 9,
+      "total": 10,
+      "accuracy": 0.9
+    },
+    "visual_coverage": 0.625
+  },
+  "elapsed_seconds": 31.297846599998593,
+  "segments": [
+    {
+      "start": 81.575,
+      "end": 84.576,
+      "speaker": "D",
+      "text": "And I'm Andrew and I'm uh our marketing",
+      "prediction": "D",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.07393699884414673,
+        "A": 0.08442509919404984,
+        "C": 0.02321278303861618,
+        "D": 0.6919652819633484
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 173.936,
+      "end": 176.816,
+      "speaker": "D",
+      "text": "Alright. So",
+      "prediction": "C",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.021230723708868027,
+        "A": 0.023673173040151596,
+        "C": 0.07297571003437042,
+        "D": 0.030731603503227234
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 0.32432432432432434
+      }
+    },
+    {
+      "start": 189.968,
+      "end": 192.021,
+      "speaker": "D",
+      "text": "is like",
+      "prediction": "C",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.0015601480845361948,
+        "A": 0.005118025466799736,
+        "C": 0.007814548909664154,
+        "D": 0.001384839415550232
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "start": 243.376,
+      "end": 245.744,
+      "speaker": "B",
+      "text": "Right. Lovely.",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.09041593968868256,
+        "A": 0.0032393650617450476,
+        "C": 0.04437796026468277,
+        "D": 0.014921951107680798
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 0.0
+      }
+    },
+    {
+      "start": 254.613,
+      "end": 257.68,
+      "speaker": "C",
+      "text": "Well, my favourite animal would be a monkey.",
+      "prediction": "B",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.015475575812160969,
+        "A": 0.005403819028288126,
+        "C": 0.007644966244697571,
+        "D": 0.007432862184941769
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 0.0,
+        "D": 0.4177215189873418
+      }
+    },
+    {
+      "start": 267.717,
+      "end": 274.048,
+      "speaker": "C",
+      "text": "Then they're small cute and furry, and uh when planet of the apes becomes real, I'm gonna be up there with them.",
+      "prediction": "A",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.024010635912418365,
+        "A": 0.26989519596099854,
+        "C": 0.21222367882728577,
+        "D": 0.06832318753004074
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 0.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 280.439,
+      "end": 282.696,
+      "speaker": "A",
+      "text": "There's too much gear.",
+      "prediction": "D",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.018315864726901054,
+        "A": 0.011209328658878803,
+        "C": 0.023388555273413658,
+        "D": 0.02545270137488842
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 0.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 342.4,
+      "end": 346.88,
+      "speaker": "B",
+      "text": "Okay. God, I still don't know what I'm gonna write about. Um.",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.01018444262444973,
+        "A": 0.0024327917490154505,
+        "C": 0.008016255684196949,
+        "D": 0.00758145609870553
+      },
+      "face_detection_rate": {
+        "B": 0.7105263157894737,
+        "A": 0.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 448.976,
+      "end": 453.696,
+      "speaker": "B",
+      "text": "Maybe. Right, um where did you find this? Just down here? Yeah.",
+      "prediction": "D",
+      "correct": false,
+      "target_visible": false,
+      "mean_probability": {
+        "B": 0.030706297606229782,
+        "A": 0.04221407696604729,
+        "C": 0.07118738442659378,
+        "D": 0.11020320653915405
+      },
+      "face_detection_rate": {
+        "B": 0.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 458.294,
+      "end": 463.024,
+      "speaker": "B",
+      "text": "Um what are we doing next? Uh um.",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.027796106413006783,
+        "A": 0.009354841895401478,
+        "C": 0.0063363369554281235,
+        "D": 0.007741207256913185
+      },
+      "face_detection_rate": {
+        "B": 0.9416666666666667,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 465.488,
+      "end": 470.72,
+      "speaker": "B",
+      "text": "Okay, uh we now need to discuss the project finance. Um",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.3219511806964874,
+        "A": 0.13583725690841675,
+        "C": 0.2927118241786957,
+        "D": 0.09978274255990982
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 499.136,
+      "end": 504.18,
+      "speaker": "D",
+      "text": "Uh, so bas at twel Alright, yeah. Okay.",
+      "prediction": "D",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.026027746498584747,
+        "A": 0.0719379261136055,
+        "C": 0.02322292886674404,
+        "D": 0.23594874143600464
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 590.976,
+      "end": 596.832,
+      "speaker": "D",
+      "text": "the price might might appeal to a certain market in one region, whereas in another it'll be different, so",
+      "prediction": "D",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.010830376297235489,
+        "A": 0.00743519514799118,
+        "C": 0.032756052911281586,
+        "D": 0.7660605311393738
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 681.439,
+      "end": 683.856,
+      "speaker": "B",
+      "text": "Well twenty five Euro, I mean that's um",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.522668182849884,
+        "A": 0.09867744892835617,
+        "C": 0.08216813951730728,
+        "D": 0.10008113831281662
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 706.032,
+      "end": 710.24,
+      "speaker": "B",
+      "text": "Um right, okay.",
+      "prediction": "D",
+      "correct": false,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.06942634284496307,
+        "A": 0.016075385734438896,
+        "C": 0.017279572784900665,
+        "D": 0.07211478054523468
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    },
+    {
+      "start": 1028.032,
+      "end": 1031.792,
+      "speaker": "B",
+      "text": "Yeah, so it's th the functional design stage is next, I guess.",
+      "prediction": "B",
+      "correct": true,
+      "target_visible": true,
+      "mean_probability": {
+        "B": 0.37132903933525085,
+        "A": 0.009732631035149097,
+        "C": 0.04032843932509422,
+        "D": 0.19480614364147186
+      },
+      "face_detection_rate": {
+        "B": 1.0,
+        "A": 1.0,
+        "C": 1.0,
+        "D": 1.0
+      }
+    }
+  ]
+}

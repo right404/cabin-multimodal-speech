@@ -1,0 +1,740 @@
+{
+  "dataset": "AISHELL-4 test exploratory subset",
+  "segments": 15,
+  "session_offset": 5,
+  "selection": "first 3-7 second isolated lexical interval from each session",
+  "array_radius_m": 0.05,
+  "confidence_threshold": 0.2,
+  "mean_cer": {
+    "input_channel_0": 0.4366788332211805,
+    "delay_sum": 0.3887692412335486,
+    "sbl_fixed_sector": 0.4171091067633717,
+    "sbl_adaptive_sector": 0.38936674159118206,
+    "confidence_gated": 0.3877556304800709
+  },
+  "relative_cer_reduction_vs_input": 0.11203474732270734,
+  "results": [
+    {
+      "recording": "L_R004S02C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 23.81083,
+      "duration_seconds": 4.230430000000002,
+      "reference_text": "我们物业也及时向你们这个解释一下，",
+      "srp_phat_doa_deg": -148.0,
+      "srp_phat_confidence": 0.1802727018210302,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -150.0,
+        "runtime_seconds": 2.4267426999995223,
+        "real_time_factor": 0.5736387075803678
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 12.836727578147638,
+        "median_target_angle_deg": -150.0,
+        "runtime_seconds": 2.5179542000005313,
+        "real_time_factor": 0.5951994799593496
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "物業即使像你們解釋一下",
+          "cer": 0.5,
+          "latency_seconds": 0.7607846000000791,
+          "real_time_factor": 0.179835915316106
+        },
+        "delay_sum": {
+          "text": "物業也即是向你們解釋一下",
+          "cer": 0.375,
+          "latency_seconds": 0.16467399999964982,
+          "real_time_factor": 0.038925997606547746
+        },
+        "sbl_fixed_sector": {
+          "text": "也即使向你们解释一下",
+          "cer": 0.5,
+          "latency_seconds": 0.1475709000005736,
+          "real_time_factor": 0.034883129700077974
+        },
+        "sbl_adaptive_sector": {
+          "text": "我们的物业也即是向你们解释一下",
+          "cer": 0.3125,
+          "latency_seconds": 0.20169970000006288,
+          "real_time_factor": 0.04767821295080305
+        }
+      },
+      "confidence_gated_method": "delay_sum"
+    },
+    {
+      "recording": "L_R004S03C01.flac",
+      "speaker_id": "002-M",
+      "start_seconds": 15.71898,
+      "duration_seconds": 3.75005,
+      "reference_text": "感谢家长百忙之中来参加学校举行的家长会",
+      "srp_phat_doa_deg": -42.0,
+      "srp_phat_confidence": 0.42618781915387394,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -45.0,
+        "runtime_seconds": 1.9386017999995602,
+        "real_time_factor": 0.5169518641354804
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 9.885746170153514,
+        "median_target_angle_deg": -45.0,
+        "runtime_seconds": 2.1278527000004033,
+        "real_time_factor": 0.5674179297012792
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "感谢家长本忙之中来参加学校执行的家长会",
+          "cer": 0.10526315789473684,
+          "latency_seconds": 0.3036320999999589,
+          "real_time_factor": 0.08096721054647993
+        },
+        "delay_sum": {
+          "text": "感谢家长百忙之中来参加学校举行的家长会",
+          "cer": 0.0,
+          "latency_seconds": 0.32801870000002964,
+          "real_time_factor": 0.08747019549674963
+        },
+        "sbl_fixed_sector": {
+          "text": "感谢家长百忙之中来参加学校举行的家长会",
+          "cer": 0.0,
+          "latency_seconds": 0.3085184000001391,
+          "real_time_factor": 0.08227020216333437
+        },
+        "sbl_adaptive_sector": {
+          "text": "感谢家长本忙之中来参加学校举行的家长会",
+          "cer": 0.05263157894736842,
+          "latency_seconds": 0.24714330000006157,
+          "real_time_factor": 0.06590378160365636
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "L_R004S06C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 20.76936,
+      "duration_seconds": 6.105600000000003,
+      "reference_text": "想了解大家对这个安全的。一些知识知识面多，",
+      "srp_phat_doa_deg": -116.0,
+      "srp_phat_confidence": 0.18789269496392724,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -120.0,
+        "runtime_seconds": 2.8263979999992443,
+        "real_time_factor": 0.46291706418249473
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 12.745287660432872,
+        "median_target_angle_deg": -125.0,
+        "runtime_seconds": 2.9565858999994816,
+        "real_time_factor": 0.484239680622292
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "想了解大家对安全的知识面有多",
+          "cer": 0.3684210526315789,
+          "latency_seconds": 0.20917089999966265,
+          "real_time_factor": 0.03425872044215992
+        },
+        "delay_sum": {
+          "text": "想了解大家对这个安全的一些知识面有多",
+          "cer": 0.15789473684210525,
+          "latency_seconds": 0.20378059999984544,
+          "real_time_factor": 0.033375878800261306
+        },
+        "sbl_fixed_sector": {
+          "text": "想了解大家对安全的知识面有多",
+          "cer": 0.3684210526315789,
+          "latency_seconds": 0.18532719999984693,
+          "real_time_factor": 0.030353518272060096
+        },
+        "sbl_adaptive_sector": {
+          "text": "想了解大家对这个安全的一些知识面的多",
+          "cer": 0.15789473684210525,
+          "latency_seconds": 0.19994540000061534,
+          "real_time_factor": 0.032747736718290975
+        }
+      },
+      "confidence_gated_method": "delay_sum"
+    },
+    {
+      "recording": "M_R003S01C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 83.68108,
+      "duration_seconds": 6.320630000000008,
+      "reference_text": "包括就是咱那个食堂这边儿，呃<sil>，包括呃孩子的一些健康情况",
+      "srp_phat_doa_deg": 92.0,
+      "srp_phat_confidence": 0.27139905795481056,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 95.0,
+        "runtime_seconds": 2.492211299999326,
+        "real_time_factor": 0.3942982379114923
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 11.743211304542273,
+        "median_target_angle_deg": 100.0,
+        "runtime_seconds": 2.9944157999998424,
+        "real_time_factor": 0.47375311776918305
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "包括在市场里面,包括孩子的一些健康情况",
+          "cer": 0.48,
+          "latency_seconds": 0.19270200000028126,
+          "real_time_factor": 0.03048780777221893
+        },
+        "delay_sum": {
+          "text": "包括在食堂里边,包括孩子的一些健康情况",
+          "cer": 0.36,
+          "latency_seconds": 0.25394409999989875,
+          "real_time_factor": 0.040177055275372096
+        },
+        "sbl_fixed_sector": {
+          "text": "包括在美国食堂里边,包括孩子的一些健康情况",
+          "cer": 0.36,
+          "latency_seconds": 0.25862120000056166,
+          "real_time_factor": 0.040917029565994134
+        },
+        "sbl_adaptive_sector": {
+          "text": "包括在民甲食堂里边,包括孩子的一些健康情况",
+          "cer": 0.36,
+          "latency_seconds": 0.24845679999998538,
+          "real_time_factor": 0.039308897458714194
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "M_R003S02C01.flac",
+      "speaker_id": "004-F",
+      "start_seconds": 12.23024,
+      "duration_seconds": 6.315009999999999,
+      "reference_text": "零幺二那个是<sil>",
+      "srp_phat_doa_deg": 26.0,
+      "srp_phat_confidence": 0.13697912230355952,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 25.0,
+        "runtime_seconds": 2.98193209999954,
+        "real_time_factor": 0.47219827395083763
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 13.356250532357286,
+        "median_target_angle_deg": 25.0,
+        "runtime_seconds": 2.9808923000000505,
+        "real_time_factor": 0.47203361836897073
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "012是团结销费",
+          "cer": 1.3333333333333333,
+          "latency_seconds": 0.14364019999993616,
+          "real_time_factor": 0.022745874901019186
+        },
+        "delay_sum": {
+          "text": "012是床机销售",
+          "cer": 1.3333333333333333,
+          "latency_seconds": 0.15616959999988467,
+          "real_time_factor": 0.02472994457638712
+        },
+        "sbl_fixed_sector": {
+          "text": "012是长期销售",
+          "cer": 1.3333333333333333,
+          "latency_seconds": 0.13463429999956134,
+          "real_time_factor": 0.021319762470239322
+        },
+        "sbl_adaptive_sector": {
+          "text": "012是床机销售",
+          "cer": 1.3333333333333333,
+          "latency_seconds": 0.15130080000017188,
+          "real_time_factor": 0.023958954869385884
+        }
+      },
+      "confidence_gated_method": "delay_sum"
+    },
+    {
+      "recording": "M_R003S04C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 15.55401,
+      "duration_seconds": 5.22001,
+      "reference_text": "呃，这次咱们把大家这个销售啊叫过来啊，咱简单做一下交流",
+      "srp_phat_doa_deg": 94.0,
+      "srp_phat_confidence": 0.19944576087427524,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 95.0,
+        "runtime_seconds": 2.8700842999996894,
+        "real_time_factor": 0.5498245785440018
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 12.606650869508698,
+        "median_target_angle_deg": 95.0,
+        "runtime_seconds": 2.696194699999978,
+        "real_time_factor": 0.5165123946360112
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "这次能把大家各个教授的教育来整单做一下教理",
+          "cer": 0.56,
+          "latency_seconds": 0.25318070000048465,
+          "real_time_factor": 0.04850204980852196
+        },
+        "delay_sum": {
+          "text": "这次咱们把大家各个教授教我来 咱们简单做一下交流",
+          "cer": 0.36,
+          "latency_seconds": 0.3386266000006799,
+          "real_time_factor": 0.06487099616871263
+        },
+        "sbl_fixed_sector": {
+          "text": "这次咱们把大家各个校庄教我来咱们简单做一下交流",
+          "cer": 0.36,
+          "latency_seconds": 0.3430429000000004,
+          "real_time_factor": 0.06571703065134107
+        },
+        "sbl_adaptive_sector": {
+          "text": "这次咱们把大家各个校庄教过来啊咱们简单做一下交流",
+          "cer": 0.28,
+          "latency_seconds": 0.34214950000023236,
+          "real_time_factor": 0.06554588122609815
+        }
+      },
+      "confidence_gated_method": "delay_sum"
+    },
+    {
+      "recording": "M_R003S05C01.flac",
+      "speaker_id": "005-F",
+      "start_seconds": 380.23027,
+      "duration_seconds": 3.6749999999999545,
+      "reference_text": "嗯<sil>做一些这种促销这种活动",
+      "srp_phat_doa_deg": 48.0,
+      "srp_phat_confidence": 0.12446664684067427,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 45.0,
+        "runtime_seconds": 1.8903203999998368,
+        "real_time_factor": 0.5143728979591393
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 13.506400237911908,
+        "median_target_angle_deg": 45.0,
+        "runtime_seconds": 1.9601148000001558,
+        "real_time_factor": 0.5333645714286138
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "做一些出销活动",
+          "cer": 0.5,
+          "latency_seconds": 0.10990750000019034,
+          "real_time_factor": 0.02990680272114023
+        },
+        "delay_sum": {
+          "text": "做一些出销活动",
+          "cer": 0.5,
+          "latency_seconds": 0.11519189999944501,
+          "real_time_factor": 0.031344734693726534
+        },
+        "sbl_fixed_sector": {
+          "text": "做一些粗削活动",
+          "cer": 0.5833333333333334,
+          "latency_seconds": 0.1454449000002569,
+          "real_time_factor": 0.03957684353748487
+        },
+        "sbl_adaptive_sector": {
+          "text": "做出销活动",
+          "cer": 0.6666666666666666,
+          "latency_seconds": 0.10779420000017126,
+          "real_time_factor": 0.02933175510208742
+        }
+      },
+      "confidence_gated_method": "delay_sum"
+    },
+    {
+      "recording": "S_R003S01C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 19.33755,
+      "duration_seconds": 5.790009999999999,
+      "reference_text": "今天啊，把大各啊各位啊召集过来啊，咱简单开一个咱那个<sil>周例会",
+      "srp_phat_doa_deg": 8.0,
+      "srp_phat_confidence": 0.42125242624554504,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 5.0,
+        "runtime_seconds": 2.6814283000003343,
+        "real_time_factor": 0.4631136960276916
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 9.94497088505346,
+        "median_target_angle_deg": 5.0,
+        "runtime_seconds": 3.048334000000068,
+        "real_time_factor": 0.5264825561312726
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "今天把各位召集过来 咱简单开一个周立会",
+          "cer": 0.37037037037037035,
+          "latency_seconds": 0.24472329999935027,
+          "real_time_factor": 0.04226654576845428
+        },
+        "delay_sum": {
+          "text": "今天把各位召集过来 简单开一个周立会",
+          "cer": 0.4074074074074074,
+          "latency_seconds": 0.21967200000017328,
+          "real_time_factor": 0.03793989637308692
+        },
+        "sbl_fixed_sector": {
+          "text": "今天要把各位召集过来咱们开一个主力会",
+          "cer": 0.48148148148148145,
+          "latency_seconds": 0.21908239999993384,
+          "real_time_factor": 0.03783806563038581
+        },
+        "sbl_adaptive_sector": {
+          "text": "今天把各位召集过来咱们开一个助理会",
+          "cer": 0.48148148148148145,
+          "latency_seconds": 0.20788100000027043,
+          "real_time_factor": 0.03590345423148021
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R003S02C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 13.22498,
+      "duration_seconds": 4.065029999999998,
+      "reference_text": "这次把呃各位家长都叫过来咱简单做一个交流",
+      "srp_phat_doa_deg": 14.0,
+      "srp_phat_confidence": 0.5454294668176853,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 15.0,
+        "runtime_seconds": 1.9228269999994154,
+        "real_time_factor": 0.47302017220157816
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 8.454846398187776,
+        "median_target_angle_deg": 15.0,
+        "runtime_seconds": 2.259755799999766,
+        "real_time_factor": 0.5559054858548009
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "這次把各位家長都叫過來簡單做一個交流",
+          "cer": 0.1,
+          "latency_seconds": 0.20998059999965335,
+          "real_time_factor": 0.05165574415735629
+        },
+        "delay_sum": {
+          "text": "這次把各位家長都叫過來簡單做一個交流",
+          "cer": 0.1,
+          "latency_seconds": 0.20538790000045992,
+          "real_time_factor": 0.05052592865939973
+        },
+        "sbl_fixed_sector": {
+          "text": "這次把各位家長都叫過來簡單做一個交流",
+          "cer": 0.1,
+          "latency_seconds": 0.19235939999998664,
+          "real_time_factor": 0.047320885608852795
+        },
+        "sbl_adaptive_sector": {
+          "text": "這次把各位家長都叫過來簡單做一個交流",
+          "cer": 0.1,
+          "latency_seconds": 0.1981735999997909,
+          "real_time_factor": 0.04875119311187968
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R003S03C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 26.96331,
+      "duration_seconds": 4.88439,
+      "reference_text": "啊，很多，要咱安保要进行一下，包括一些。",
+      "srp_phat_doa_deg": 22.0,
+      "srp_phat_confidence": 0.5329735671756031,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 20.0,
+        "runtime_seconds": 2.7620615999994698,
+        "real_time_factor": 0.5654892591169739
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 8.604317193892763,
+        "median_target_angle_deg": 20.0,
+        "runtime_seconds": 2.6322186000006695,
+        "real_time_factor": 0.5389059193859336
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "很多安保要進行一下",
+          "cer": 0.4375,
+          "latency_seconds": 0.11356059999980062,
+          "real_time_factor": 0.023249770953254124
+        },
+        "delay_sum": {
+          "text": "很多安保要進行一下",
+          "cer": 0.4375,
+          "latency_seconds": 0.11669240000082937,
+          "real_time_factor": 0.02389095841347754
+        },
+        "sbl_fixed_sector": {
+          "text": "很多安保要进行一下",
+          "cer": 0.4375,
+          "latency_seconds": 0.11855580000064947,
+          "real_time_factor": 0.024272460652724138
+        },
+        "sbl_adaptive_sector": {
+          "text": "很多安保要进行一下",
+          "cer": 0.4375,
+          "latency_seconds": 0.12084099999992759,
+          "real_time_factor": 0.02474031989761793
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R003S04C01.flac",
+      "speaker_id": "002-F",
+      "start_seconds": 7.15999,
+      "duration_seconds": 3.09002,
+      "reference_text": "零零二小区业主A",
+      "srp_phat_doa_deg": 120.0,
+      "srp_phat_confidence": 0.4781061309694998,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 120.0,
+        "runtime_seconds": 0.9474365999994916,
+        "real_time_factor": 0.30661378640760245
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 9.262726428366003,
+        "median_target_angle_deg": 120.0,
+        "runtime_seconds": 1.024756100000559,
+        "real_time_factor": 0.331636278317333
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "002 小區業主A",
+          "cer": 0.375,
+          "latency_seconds": 0.10916929999984859,
+          "real_time_factor": 0.035329870550112816
+        },
+        "delay_sum": {
+          "text": "002 小區業主A",
+          "cer": 0.375,
+          "latency_seconds": 0.11531990000003134,
+          "real_time_factor": 0.03732035598706516
+        },
+        "sbl_fixed_sector": {
+          "text": "002 小區業主A",
+          "cer": 0.375,
+          "latency_seconds": 0.11621039999954519,
+          "real_time_factor": 0.0376085436891732
+        },
+        "sbl_adaptive_sector": {
+          "text": "002 小區業主A",
+          "cer": 0.375,
+          "latency_seconds": 0.11839679999957298,
+          "real_time_factor": 0.038316116504716176
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R004S01C01.flac",
+      "speaker_id": "004-F",
+      "start_seconds": 234.76411,
+      "duration_seconds": 6.05453,
+      "reference_text": "嗯，这是我们前期嗯开店之前的一个准备的工作嗯大概就是这样的。",
+      "srp_phat_doa_deg": 112.0,
+      "srp_phat_confidence": 0.4591465495495736,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": 115.0,
+        "runtime_seconds": 2.5815152999994098,
+        "real_time_factor": 0.4263796019488661
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 9.490241405405117,
+        "median_target_angle_deg": 115.0,
+        "runtime_seconds": 3.3448754999999437,
+        "real_time_factor": 0.5524610620199758
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "这是我们前期开店之前的准备的工作大概就是这样的",
+          "cer": 0.17857142857142858,
+          "latency_seconds": 0.24027250000017375,
+          "real_time_factor": 0.03968494508219898
+        },
+        "delay_sum": {
+          "text": "这是我们前期开店之前的准备的工作大概就是这样的",
+          "cer": 0.17857142857142858,
+          "latency_seconds": 0.23125579999941692,
+          "real_time_factor": 0.0381956891567292
+        },
+        "sbl_fixed_sector": {
+          "text": "这是我们前期开店之前的准备的工作大概就是这样的",
+          "cer": 0.17857142857142858,
+          "latency_seconds": 0.23604139999952167,
+          "real_time_factor": 0.03898610950524761
+        },
+        "sbl_adaptive_sector": {
+          "text": "这是我们前期开店之前的准备的工作大概就是这样的",
+          "cer": 0.17857142857142858,
+          "latency_seconds": 0.25647029999981896,
+          "real_time_factor": 0.04236027747953076
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R004S02C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 23.02398,
+      "duration_seconds": 5.494989999999998,
+      "reference_text": "昂这下把大家啊都呃召集过来咱简单开会马上要要进入这个",
+      "srp_phat_doa_deg": -178.0,
+      "srp_phat_confidence": 0.21350695110997603,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -175.0,
+        "runtime_seconds": 2.7506971000002522,
+        "real_time_factor": 0.5005818198362606
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 12.437916586680288,
+        "median_target_angle_deg": -170.0,
+        "runtime_seconds": 2.845478700000058,
+        "real_time_factor": 0.5178305186533317
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "這次把大家交集過來,我們再談會,馬上要進入這個",
+          "cer": 0.4230769230769231,
+          "latency_seconds": 0.24480539999967732,
+          "real_time_factor": 0.04455057324834892
+        },
+        "delay_sum": {
+          "text": "這次要把大家交集過來 咱們展覽開會馬上要進入這個",
+          "cer": 0.4230769230769231,
+          "latency_seconds": 0.30328909999934694,
+          "real_time_factor": 0.05519364877149171
+        },
+        "sbl_fixed_sector": {
+          "text": "这次把大家都交集过来的检查会马上要进入这个",
+          "cer": 0.38461538461538464,
+          "latency_seconds": 0.23459030000049097,
+          "real_time_factor": 0.04269159235677725
+        },
+        "sbl_adaptive_sector": {
+          "text": "这次把大家都交集过来的检查会马上要进入这个",
+          "cer": 0.38461538461538464,
+          "latency_seconds": 0.23368810000010853,
+          "real_time_factor": 0.04252740673341374
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R004S03C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 20.99937,
+      "duration_seconds": 6.2745200000000025,
+      "reference_text": "<%>嗯把各个区的那个咱那个负责人啊叫过来，咱简单呃做一个交流。",
+      "srp_phat_doa_deg": -166.0,
+      "srp_phat_confidence": 0.26925809224280506,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -165.0,
+        "runtime_seconds": 2.760695800000576,
+        "real_time_factor": 0.43998658060412404
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 11.76890289308634,
+        "median_target_angle_deg": -165.0,
+        "runtime_seconds": 3.148153799999818,
+        "real_time_factor": 0.501737795840277
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "把哥哥去的這個咱那個四個人啊叫過來咱簡單做一個招領",
+          "cer": 0.37037037037037035,
+          "latency_seconds": 0.29843199999959324,
+          "real_time_factor": 0.0475626743166138
+        },
+        "delay_sum": {
+          "text": "把哥哥去的那个副的人叫过来,简单做一个交流。",
+          "cer": 0.4444444444444444,
+          "latency_seconds": 0.26678139999967243,
+          "real_time_factor": 0.04251835205987289
+        },
+        "sbl_fixed_sector": {
+          "text": "把哥哥去的那个副的人叫过来,再做一个交流",
+          "cer": 0.5185185185185185,
+          "latency_seconds": 0.2329371000005267,
+          "real_time_factor": 0.037124408319471947
+        },
+        "sbl_adaptive_sector": {
+          "text": "把哥哥去的那个副的人叫过来,简单做一个交流",
+          "cer": 0.4444444444444444,
+          "latency_seconds": 0.29184820000045875,
+          "real_time_factor": 0.046513379552228666
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    },
+    {
+      "recording": "S_R004S04C01.flac",
+      "speaker_id": "001-M",
+      "start_seconds": 18.99127,
+      "duration_seconds": 5.945,
+      "reference_text": "呃<sil>这次啊咱们<->把各位家长叫过来呢咱简单的开个家长的一个交流会",
+      "srp_phat_doa_deg": -170.0,
+      "srp_phat_confidence": 0.2104195861823811,
+      "fixed_diagnostics": {
+        "sector_half_width_deg": 5.0,
+        "median_target_angle_deg": -170.0,
+        "runtime_seconds": 3.0308869999998933,
+        "real_time_factor": 0.5098211942808903
+      },
+      "adaptive_diagnostics": {
+        "sector_half_width_deg": 12.474964965811427,
+        "median_target_angle_deg": -170.0,
+        "runtime_seconds": 3.1684957999996186,
+        "real_time_factor": 0.5329681749368576
+      },
+      "asr": {
+        "input_channel_0": {
+          "text": "這次把各個家長叫過來簡單開個交流會",
+          "cer": 0.4482758620689655,
+          "latency_seconds": 0.19580839999980526,
+          "real_time_factor": 0.03293665264925236
+        },
+        "delay_sum": {
+          "text": "這次我們把各位家長叫過來簡單開個交流會",
+          "cer": 0.3793103448275862,
+          "latency_seconds": 0.21557859999938955,
+          "real_time_factor": 0.03626216989056174
+        },
+        "sbl_fixed_sector": {
+          "text": "這次我們把各位家長叫過來來簡單看看家長的一個交流會",
+          "cer": 0.27586206896551724,
+          "latency_seconds": 0.23022540000056324,
+          "real_time_factor": 0.03872588730034705
+        },
+        "sbl_adaptive_sector": {
+          "text": "這次,我們把各位家長叫過來,簡單看看家長的一個交流會",
+          "cer": 0.27586206896551724,
+          "latency_seconds": 0.23992220000036468,
+          "real_time_factor": 0.04035697224564586
+        }
+      },
+      "confidence_gated_method": "sbl_adaptive_sector"
+    }
+  ],
+  "cer_normalization": "tags removed; traditional Chinese converted to simplified",
+  "adaptive_relative_cer_reduction_vs_input": 0.10834528268979453
+}
