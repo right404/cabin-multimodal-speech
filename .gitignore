@@ -28,7 +28,7 @@ tmp/*
 *.onnx
 *.pt
 *.pth
-/1-s2.0-S1051200426002575-main (1).pdf
+*.pdf
 
-# Personal resume/interview notes (kept locally, not part of the public project)
+# Personal job-search notes (kept locally, not part of the public project)
 /docs/RESUME_PROJECT.md
